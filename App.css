@@ -1,11 +1,10 @@
-/* Start Variables */
+
 :root {
   --main-padding: 20px;
   --main-margin: -30px;
   background-color: black;
 }
-/* End Variables */
-/*Start Global Rules*/
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -14,37 +13,37 @@
 html {
   scroll-behavior: smooth;
 }
-/* body {
-  font-family: "Work Sans", sans-serif;
-} */
+
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
-/* Small */
+
+
 @media (max-width: 567px) {
   .container {
     width: 300px;
   }
 }
-/* Medium */
+
 @media (min-width: 568px) {
   .container {
     width: 500px;
   }
 }
-/* Large */
+
 @media (min-width: 768px) {
   .container {
     width: 600px;
   }
 }
 
-/* End Global Rules */
 
-/* Start Header */
+
+/*  Header */
 .header {
   padding: var(--main-padding);
   margin-bottom: var(--main-margin);
@@ -58,9 +57,9 @@ html {
   font-family: system-ui;
   color: cornflowerblue;
 }
-/* End Header */
+/*  Header */
 
-/* Start Settings */
+/* Settings */
 .settings {
   padding: var(--main-padding);
   margin-bottom: var(--main-margin);
@@ -84,7 +83,8 @@ html {
 }
 /* End Settings */
 
-/* Start Game */
+
+/*  Game */
 .game {
   padding: var(--main-padding);
 }
@@ -97,19 +97,20 @@ html {
   padding: 20px;
   perspective: 600px;
 }
-/* Small */
+
+
 @media (max-width: 567px) {
   .game .container {
     height: 300px;
   }
 }
-/* Medium */
+
 @media (min-width: 568px) {
   .game .container {
     height: 500px;
   }
 }
-/* Large */
+
 @media (min-width: 768px) {
   .game .container {
     height: 600px;
@@ -129,6 +130,7 @@ html {
   transition: 0.4s;
   transform-style: preserve-3d;
 }
+
 .game .card .element {
   position: absolute;
   left: 50%;
@@ -142,19 +144,21 @@ html {
 .game .element img {
   border-radius: 30%;
 }
-/* Small */
+
+
 @media (max-width: 567px) {
   .game .element img {
     width: 45px;
   }
 }
-/* Medium */
+
+
 @media (min-width: 568px) {
   .game .element img {
     width: 85px;
   }
 }
-/* Large */
+
 @media (min-width: 768px) {
   .game .element img {
     width: 105px;
@@ -163,7 +167,9 @@ html {
 
 /* End Game */
 
-/* Start Footer */
+
+
+/* Footer */
 .footer {
   pad: var(--main-padding);
 }
@@ -181,7 +187,9 @@ html {
 
 /* End Footer */
 
-/* Start Done */
+
+
+/*  Done */
 .done {
   padding: var(--main-padding);
 }
