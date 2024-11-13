@@ -1,2 +1,3 @@
 # Memory-Game
-Html &amp;&amp; css &amp;&amp; Javascript
+Html &amp;&amp; css &amp;&amp; Jquery
+
